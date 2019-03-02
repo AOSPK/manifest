@@ -39,6 +39,8 @@
   <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="los" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
   <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="los" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
 
