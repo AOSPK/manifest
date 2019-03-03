@@ -147,4 +147,6 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/update_engine" />
 
+  <remove-project name="platform/tools/repohooks" />
+
 </manifest>
