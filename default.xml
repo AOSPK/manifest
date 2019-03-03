@@ -718,8 +718,8 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
 
   <include name="snippets/remove.xml" />
-  <include name="snippets/kraken.xml" />
-  <include name="snippets/caf.xml" />
+  <include name="snippets/aosp.xml" />
+  <include name="snippets/extras.xml" />
   <include name="snippets/gapps.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
