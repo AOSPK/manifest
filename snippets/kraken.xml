@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+          fetch="https://github.com" />
+
+  <remote  name="kraken"
+           fetch="https://github.com/KrakenProject"
+           revision="refs/heads/pie" />
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
+
+  <project path="build/make" name="build" groups="pdk" remote="kraken" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="los" />
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="kraken" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="art" name="android_art" groups="pdk" remote="los" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="los" />
+  <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="los" />
+  <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
+
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="los" />
+  <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="los" />
+
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
+  <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="los" />
+  <project path="external/f2fs-tools" name="android_external_f2fs-tools" groups="pdk" remote="los" />
+  <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
+  <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
+  <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="los" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
+  <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
+  <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="los" />
+  <project path="external/proguard" name="android_external_proguard" groups="pdk" remote="los" />
+  <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
+  <project path="external/skia" name="android_external_skia" groups="pdk,qcom_msm8x26" remote="los" />
+  <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
+  <project path="external/zlib" name="android_external_zlib" groups="pdk" remote="los" />
+
+  <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="kraken" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="kraken" />
+  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="kraken" />
+  <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="kraken" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" groups="pdk" remote="kraken" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="kraken" />
+
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="pdk,broadcom_wlan" remote="los" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="los" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" remote="los" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" remote="los" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" groups="pdk" remote="los" />
+  <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk-qcom" remote="los" />
+  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom/sdm845/bt" name="android_hardware_qcom_sdm845_bt" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" groups="vendor,qcom_sdm845" remote="los" >
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile dest="hardware/qcom/sdm845/Android.bp" src="os_pickup.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/sdm845/gps" name="android_hardware_qcom_sdm845_gps" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/sdm845/thermal" name="android_hardware_qcom_sdm845_thermal" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/sdm845/vr" name="android_hardware_qcom_sdm845_vr" groups="qcom_sdm845" remote="los" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="los" />
+  <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
+
+  <project path="packages/apps/BasicSmsReceiver" name="android_packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="kraken" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="los" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/PhoneCommon" name="android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/SafetyRegulatoryInfo" name="android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/SecureElement" name="android_packages_apps_SecureElement" groups="apps_se,pdk-fs" remote="los" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="kraken" />
+  <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="los" />
+  <project path="packages/apps/StorageManager" name="android_packages_apps_StorageManager" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/Tag" name="android_packages_apps_Tag" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/Traceur" name="android_packages_apps_Traceur" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/TvSettings" name="android_packages_apps_TvSettings" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/TV" name="android_packages_apps_TV" remote="los" />
+  <project path="packages/apps/UnifiedEmail" name="android_packages_apps_UnifiedEmail" groups="pdk-fs" remote="los" />
+  <project path="packages/apps/WallpaperPicker" name="android_packages_apps_WallpaperPicker" groups="pdk-fs" remote="los" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/BlockedNumberProvider" name="android_packages_providers_BlockedNumberProvider" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/BookmarkProvider" name="android_packages_providers_BookmarkProvider" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/providers/CallLogProvider" name="android_packages_providers_CallLogProvider" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/TelephonyProvider" name="android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/providers/TvProvider" name="android_packages_providers_TvProvider" groups="pdk-fs" remote="los" />
+  <project path="packages/providers/UserDictionaryProvider" name="android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/screensavers/Basic" name="android_packages_screensavers_Basic" groups="pdk-fs" remote="los" />
+  <project path="packages/screensavers/PhotoTable" name="android_packages_screensavers_PhotoTable" groups="pdk-fs" remote="los" />
+  <project path="packages/screensavers/WebView" name="android_packages_screensavers_WebView" groups="pdk-fs" remote="los" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/services/Mms" name="android_packages_services_Mms" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="los" />
+
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="los" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="kraken" />
+
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="los" />
+  <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="los" />
+  <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
+  <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="los" />
+  <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="los" />
+  <project path="system/tools/aidl" name="android_system_tools_aidl" groups="pdk" remote="los" />
+  <project path="system/tools/hidl" name="android_system_tools_hidl" groups="pdk" remote="los" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
+  <project path="system/vold" name="android_system_vold" groups="pdk" remote="los" />
+
+  <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
+
+</manifest>
