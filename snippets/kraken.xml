@@ -39,8 +39,10 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
+  <project path="external/libcups" name="android_external_libcups" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="los" />
+  <project path="external/libhevc" name="android_external_libhevc" groups="pdk" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
   <project path="external/perfetto" name="android_external_perfetto" groups="pdk" remote="los" />
@@ -148,6 +150,7 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="los" />
   <project path="system/keymaster" name="android_system_keymaster" groups="pdk" remote="los" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="los" />
+  <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="los" />
   <project path="system/timezone" name="android_system_timezone" groups="pdk" remote="los" />
