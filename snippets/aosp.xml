@@ -83,6 +83,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="los" />
   <project path="prebuilts/r8" name="android_prebuilts_r8" groups="pdk" clone-depth="1" remote="los" />
 
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="los" />
 
 </manifest>
