@@ -7,6 +7,7 @@
   <project path="lineage-sdk" name="custom-sdk" remote="kraken" />
 
   <project path="packages/apps/LineageParts" name="packages_apps_CustomParts" remote="kraken" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="kraken" />
 
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
