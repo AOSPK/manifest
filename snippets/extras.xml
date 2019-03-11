@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
+  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+
+  <project path="lineage-sdk" name="custom-sdk" remote="kraken" />
+
+  <project path="packages/apps/LineageParts" name="packages_apps_CustomParts" remote="kraken" />
+
   <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
   <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
 
 </manifest>
