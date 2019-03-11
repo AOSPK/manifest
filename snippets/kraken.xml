@@ -138,6 +138,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="packages/wallpapers/LivePicker" name="android_packages_wallpapers_LivePicker" groups="pdk-fs" remote="los" />
 
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="los" />
   <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" groups="pdk" clone-depth="1" remote="los" />
   <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="kraken" />
 

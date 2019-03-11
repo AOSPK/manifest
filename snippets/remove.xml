@@ -199,6 +199,7 @@
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/wallpapers/LivePicker" />
 
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" />
