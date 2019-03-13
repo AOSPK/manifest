@@ -769,6 +769,7 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/aosp.xml" />
   <include name="snippets/extras.xml" />
+  <include name="snippets/gapps.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
