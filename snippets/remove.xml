@@ -107,6 +107,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/PackageInstaller" />
   <remove-project name="platform/packages/apps/PhoneCommon" />
+  <remote-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SafetyRegulatoryInfo" />
   <remove-project name="platform/packages/apps/SecureElement" />
   <remove-project name="platform/packages/apps/Settings" />
