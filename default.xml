@@ -711,6 +711,7 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/kraken.xml" />
   <include name="snippets/caf.xml" />
+  <include name="snippets/gapps.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
