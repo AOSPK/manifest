@@ -116,6 +116,7 @@
   <remove-project name="platform/packages/apps/StorageManager" />
   <remove-project name="platform/packages/apps/Tag" />
   <remove-project name="platform/packages/apps/Terminal" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Traceur" />
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/apps/TV" />
