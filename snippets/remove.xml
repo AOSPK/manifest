@@ -63,6 +63,7 @@
   <remove-project name="platform/frameworks/native" />
 
   <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/msm8960" />
   <remove-project name="platform/hardware/qcom/msm8994" />
   <remove-project name="platform/hardware/qcom/msm8996" />
