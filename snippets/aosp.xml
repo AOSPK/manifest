@@ -12,4 +12,6 @@
            fetch="https://github.com/LineageOS"
            revision="refs/heads/lineage-17.0" />
 
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="kraken" />
+
 </manifest>
