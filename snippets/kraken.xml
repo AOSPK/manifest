@@ -32,9 +32,6 @@
   <project path="dalvik" name="android_dalvik" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
 
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="los" />
-  <project path="device/google/atv" name="android_device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="los" />
-
   <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" clone-depth="1" remote="los" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" groups="pdk" remote="los" />
   <project path="external/elfutils" name="android_external_elfutils" groups="pdk" remote="los" />
