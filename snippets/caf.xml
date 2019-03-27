@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="kraken" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="kraken" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="kraken" />
