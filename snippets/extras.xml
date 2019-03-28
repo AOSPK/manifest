@@ -7,11 +7,18 @@
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
   <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
   <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/exfat" name="android_external_exfat" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
 
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="los" revision="lineage-17.0-caf" />
+  <project path="hardware/qcom-caf/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="los" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="los" revision="lineage-17.0-caf" />
 
   <project path="lineage-sdk" name="custom-sdk" remote="kraken" />
 
@@ -26,5 +33,10 @@
 
   <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="los" />
 
 </manifest>
