@@ -153,4 +153,8 @@
 
   <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
 
+  <!-- This repo is broken in Google servers, lets use the latest version from LineageOS instead. -->
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="los" revision="cm-14.1" />
+
 </manifest>
