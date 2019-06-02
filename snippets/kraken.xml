@@ -39,6 +39,7 @@
   <project path="external/fsck_msdos" name="android_external_fsck_msdos" groups="pdk" remote="los" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" groups="pdk" remote="los" />
   <project path="external/icu" name="android_external_icu" groups="pdk" remote="los" />
+  <project path="external/libpng" name="android_external_libpng" groups="pdk" remote="los" />
   <project path="external/libtextclassifier" name="android_external_libtextclassifier" groups="pdk" remote="los" />
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/one-true-awk" name="android_external_one-true-awk" groups="pdk" remote="los" />
