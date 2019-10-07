@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project path="prebuilts/openssl" name="android_prebuilts_openssl" clone-depth="1" remote="los" />
+  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
+
   <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
 
 </manifest>
