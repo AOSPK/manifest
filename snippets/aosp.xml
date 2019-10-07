@@ -161,6 +161,4 @@
 
   <project path="test/vts-testcase/vndk" name="android_test_vts-testcase_vndk" groups="pdk" remote="los" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
-
 </manifest>

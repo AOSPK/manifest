@@ -87,6 +87,7 @@
   <project path="system/extras/su" name="android_system_extras_su" remote="los" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
+  <project path="vendor/aosp" name="vendor_aosp" remote="kraken" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
