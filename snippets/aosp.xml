@@ -58,7 +58,7 @@
   <project path="packages/apps/CarrierConfig" name="android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="packages/apps/CellBroadcastReceiver" name="android_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="los" />
   <project path="packages/apps/CertInstaller" name="android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="los" />
-  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="los" />
+  <project path="packages/apps/DocumentsUI" name="packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="kraken" />
   <project path="packages/apps/EmergencyInfo" name="android_packages_apps_EmergencyInfo" groups="pdk-fs" remote="los" />
   <project path="packages/apps/HTMLViewer" name="android_packages_apps_HTMLViewer" groups="pdk-fs" remote="los" />
   <project path="packages/apps/KeyChain" name="android_packages_apps_KeyChain" groups="pdk-fs" remote="los" />
