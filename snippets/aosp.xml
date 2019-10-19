@@ -111,6 +111,7 @@
 
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="los" />
+  <project path="system/netd" name="android_system_netd" groups="pdk" remote="los" />
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
 
   <project path="tools/repohooks" name="platform/tools/repohooks" groups="adt-infra,cts,developers,motodev,pdk,tools,tradefed" revision="master" />
