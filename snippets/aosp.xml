@@ -31,6 +31,7 @@
   </project>
   <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
 
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/openssh" name="android_external_openssh" groups="pdk" remote="los" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />
