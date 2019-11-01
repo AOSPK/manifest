@@ -101,6 +101,7 @@
 
   <project path="lineage-sdk" name="custom-sdk" remote="kraken" />
 
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
   <project path="packages/apps/LineageParts" name="packages_apps_CustomParts" remote="kraken" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="kraken" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
@@ -124,6 +125,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="los" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="los" />
 
