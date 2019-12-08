@@ -132,6 +132,7 @@
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/apps/UnifiedEmail" />
+  <remove-project name="platform/packages/apps/WallpaperPicker2" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
   <remove-project name="platform/packages/modules/CaptivePortalLogin" />
   <remove-project name="platform/packages/providers/BlockedNumberProvider" />
