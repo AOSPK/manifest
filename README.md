@@ -1,4 +1,4 @@
-![KrakenProject](https://raw.githubusercontent.com/KrakenProject/official_devices/master/docs/banner.png)
+![aosp-forking](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/687px-Android_logo_2019.svg.png)
 
 ### Requirements
 - Around 75G disk space
@@ -35,7 +35,7 @@
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/KrakenProject/manifest -b ten
+        repo init -u https://github.com/aosp-forking/manifest -b ten
         ```
     3. Sync!
         ```
@@ -47,19 +47,19 @@
     1. Clone your tree repositories
         Example:
           ```
-          git clone https://github.com/KrakenDevices/device_xiaomi_beryllium -b ten device/xiaomi/beryllium
+          git clone https://github.com/YourUser/device_xiaomi_beryllium -b ten device/xiaomi/beryllium
           ```
     2. Move/copy your `<ROM>.mk` (Example: `lineage.mk` or `lineage_beryllium.mk`) file to `aosp_beryllium.mk`.
     3. Open this file and
         - Set PRODUCT_NAME to `aosp_<device>` (Example: `aosp_beryllium`)
         - For a Phone or tablet with a SIM Card, add
             ```
-            # Inherit from Kraken vendor
+            # Inherit from aosp vendor
             $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
             ```
         - For a WiFi-only tablet, add
             ```
-            # Inherit from Kraken vendor
+            # Inherit from aosp vendor
             $(call inherit-product, vendor/aosp/config/common_full_tablet_wifionly.mk)
             ```
     4. Save and exit
@@ -86,12 +86,8 @@
     4. Remember to `make clobber && make clean` every now and then!
 
 ### Reporting compilation issues
-- You can reach us at [**Telegram**](https://t.me/KrakenProject)
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
 - Make sure you provide relevant logs, screenshots and details with all sources you used.
-
-### Adding Support
-- For adding your device to the list of supported devices, please reach us at [**GoogleForms**](https://forms.gle/AKinLpdy8VELaefE6) with your device tree and previous works.
 
 Credits
 -------
