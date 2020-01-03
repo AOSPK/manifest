@@ -10,7 +10,7 @@
 
   <remote  name="los"
            fetch="https://github.com/LineageOS"
-           revision="refs/heads/lineage-17.0" />
+           revision="refs/heads/lineage-17.1" />
 
   <project path="art" name="android_art" groups="pdk" remote="los" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="los" />
