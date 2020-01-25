@@ -25,10 +25,10 @@
         ```
         chmod a+x ~/bin/repo
         ```
-    6. Creating directory for where the KK repo will be stored and synced
+    6. Creating directory for where the ROM repo will be stored and synced
         ```
-        mkdir ~/kk
-        cd ~/kk
+        mkdir ~/ROM
+        cd ~/ROM
         ```
 
 - Preparing the ROM
