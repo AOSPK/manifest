@@ -1,4 +1,4 @@
-![aosp-forking](https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Android_logo_2019.svg/687px-Android_logo_2019.svg.png)
+![aosp-forking](https://i.imgur.com/wwPgXZt.jpg)
 
 ### Requirements
 - Around 75G disk space
