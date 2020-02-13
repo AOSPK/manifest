@@ -5,7 +5,7 @@
           fetch="https://github.com" />
 
   <remote  name="aosp-forking"
-           fetch="https://github.com/aosp-forking"
+           fetch="ssh://git@github.com/mamutal91"
            revision="refs/heads/ten" />
 
   <remote  name="los"
