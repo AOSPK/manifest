@@ -37,6 +37,7 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" groups="pdk" remote="los" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los"/>
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="los" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aosp-forking" />
