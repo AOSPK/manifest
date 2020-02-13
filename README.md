@@ -88,12 +88,3 @@
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
 - Make sure you provide relevant logs, screenshots and details with all sources you used.
-
-Credits
--------
- * [**AOSP**](https://android.googlesource.com)
- * [**AOSPExtended**](https://github.com/AospExtended)
- * [**AOSiP**](https://github.com/AOSiP)
- * [**CrDroid**](https://github.com/crdroid)
- * [**Dirty Unicorns**](https://github.com/DirtyUnicorns)
- * [**LineageOS**](https://github.com/LineageOS)
