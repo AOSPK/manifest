@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp-forking"
-           fetch="ssh://git@github.com/mamutal91"
+           fetch="https://github.com/aosp-forking"
            revision="refs/heads/ten" />
 
   <remote  name="los"
