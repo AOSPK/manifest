@@ -61,6 +61,7 @@
 
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/libhevc" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/nos/host/android" />
   <remove-project name="platform/external/nos/test/system-test-harness" />
