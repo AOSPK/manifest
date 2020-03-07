@@ -35,11 +35,11 @@
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/aosp-forking/manifest -b ten
+        repo init --depth=1 -u https://github.com/aosp-forking/manifest -b ten
         ```
     3. Sync!
         ```
-        repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --force-sync
+        repo sync -c -v -j$(nproc --all) --force-sync
         ```
     4. The ROM is ready! Get ready to prepare your device-specific.
 
