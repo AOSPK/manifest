@@ -82,8 +82,9 @@
 
   <remove-project name="platform/hardware/broadcom/libbt" />
   <remove-project name="platform/hardware/interfaces" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/knowles/athletico/sound_trigger_hal" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/bootctrl" />
@@ -93,14 +94,14 @@
   <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/keymaster" />
   <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/msm8960" />
-  <remove-project name="platform/hardware/qcom/msm8994" />
-  <remove-project name="platform/hardware/qcom/msm8996" />
-  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/msm8x09" />
   <remove-project name="platform/hardware/qcom/msm8x26" />
   <remove-project name="platform/hardware/qcom/msm8x27" />
   <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8994" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8998" />
   <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
   <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/ril" />
