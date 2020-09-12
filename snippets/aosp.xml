@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp-forking"
+           fetch="https://github.com/aosp-forking"
+           revision="refs/heads/eleven" />
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-18.0" />
+
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="los" />
+  <project path="build/make" name="build" groups="pdk" remote="aosp-forking" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="aosp-forking" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="los" />
+  <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="los" />
+
+  <project path="external/guice" name="android_external_guice" groups="pdk" remote="los" />
+
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aosp-forking" />
+  <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="los" />
+
+  <project path="system/apex" name="android_system_apex" groups="pdk" remote="los" />
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="los" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="los" />
+  <project path="system/incremental_delivery" name="android_system_incremental_delivery" groups="pdk" remote="los" />
+
+  <project path="tools/metalava" name="android_tools_metalava" groups="pdk,tools" remote="los" />
+
+</manifest>
