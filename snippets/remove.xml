@@ -58,6 +58,7 @@
   <remove-project name="device/mediatek/wembley-sepolicy" />
   <remove-project name="device/sample" />
 
+  <remove-project name="platform/bionic" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build/soong" />
