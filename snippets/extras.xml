@@ -23,4 +23,6 @@
   <project path="external/vim" name="android_external_vim" remote="los" />
   <project path="external/zip" name="android_external_zip" remote="los" />
 
+  <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
+
 </manifest>
