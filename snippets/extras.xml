@@ -5,6 +5,11 @@
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aosp-forking"/>
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aosp-forking" />
 
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
   <project path="external/bash" name="android_external_bash" remote="los" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
