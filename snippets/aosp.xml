@@ -31,6 +31,7 @@
 
   <project path="external/guice" name="android_external_guice" groups="pdk" remote="los" />
   <project path="external/libcxx" name="android_external_libcxx" groups="pdk" remote="los" />
+  <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="los" />
 
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="los" />
