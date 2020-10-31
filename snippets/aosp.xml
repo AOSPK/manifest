@@ -26,6 +26,8 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="development" name="android_development" groups="developers,pdk-cw-fs,pdk-fs" remote="los" />
+
   <project path="device/generic/goldfish" name="android_device_generic_goldfish" groups="pdk" remote="los" />
   <project path="device/generic/goldfish-opengl" name="android_device_generic_goldfish-opengl" groups="pdk" remote="los" />
 
