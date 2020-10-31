@@ -3,6 +3,7 @@
 
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aosp-forking" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aosp-forking"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aosp-forking" revision="eleven-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aosp-forking" />
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
@@ -25,7 +26,7 @@
 
   <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
   <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
-  
+
   <project path="lineage-sdk" name="custom-sdk" remote="aosp-forking" />
 
   <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
