@@ -29,8 +29,9 @@
 
   <project path="lineage-sdk" name="custom-sdk" remote="aosp-forking" />
 
-  <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aosp-forking" />
+  <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
+  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aosp-forking" />
 
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
