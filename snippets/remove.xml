@@ -82,6 +82,7 @@
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
   <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
   <remove-project name="platform/hardware/ril" />
 
   <remove-project name="platform/packages/apps/BasicSmsReceiver" />
