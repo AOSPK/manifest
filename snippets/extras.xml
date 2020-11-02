@@ -60,6 +60,8 @@
 
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+
   <project path="vendor/aosp" name="vendor_aosp" remote="aosp-forking" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
