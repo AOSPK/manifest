@@ -1,14 +1,13 @@
-![aosp-forking](https://i.imgur.com/wwPgXZt.jpg)
-
 ### Requirements
 - Around 75G disk space
 - 20G or more usable internet
 - A computer with at least 8G RAM running Linux or MacOS
 - A brain
+- Patience
 
 ### Instructions
 - Preparing the SERVER
-    1. To prepare your server, i recommend using Akhil Narang scripts https://github.com/akhilnarang/scripts
+    1. To prepare your server, i recommend using [**Akhil Narang**](https://github.com/akhilnarang/scripts) scripts.
     2. Make directory for the repo binary
         ```
         mkdir ~/bin
@@ -27,21 +26,20 @@
         ```
     6. Creating directory for where the ROM repo will be stored and synced
         ```
-        mkdir ~/ROM
-        cd ~/ROM
+        mkdir ~/AOSPK
+        cd ~/AOSPK
         ```
 
 - Preparing the ROM
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/aosp-forking/manifest -b pie
+        repo init --depth=1 -u https://github.com/AOSPK/manifest -b pie
         ```
     3. Sync!
         ```
         repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --force-sync
         ```
-    4. The ROM is ready! Get ready to prepare your device-specific.
 
 - Preparing device
     1. Clone your tree repositories
@@ -84,6 +82,10 @@
     2. This will start compiling the build.
     3. Resolve errors if any and continue building.
     4. Remember to `make clobber && make clean` every now and then!
+
+### Credits
+- This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
+- [**OpenGApps**](https://github.com/opengapps) included
 
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
