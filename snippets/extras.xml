@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aosp-forking" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="droidrom" />
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aosp-forking"/>
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aosp-forking" revision="eleven-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aosp-forking" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom"/>
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" revision="eleven-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="droidrom" />
 
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
   <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
@@ -69,17 +69,17 @@
   <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8998" />
 
-  <project path="lineage-sdk" name="custom-sdk" remote="aosp-forking" />
+  <project path="lineage-sdk" name="custom-sdk" remote="droidrom" />
 
-  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aosp-forking" />
+  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droidrom" />
   <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
-  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aosp-forking" />
+  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droidrom" />
 
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="aosp-forking" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="droidrom" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="los" />

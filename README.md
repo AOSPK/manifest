@@ -1,5 +1,3 @@
-![aosp-forking](https://i.imgur.com/wwPgXZt.jpg)
-
 ### Requirements
 - Around 75G disk space
 - 20G or more usable internet
@@ -35,7 +33,7 @@
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/aosp-forking/manifest -b eleven
+        repo init -u https://github.com/DroidROM/manifest -b eleven
         ```
     3. Sync!
         ```
