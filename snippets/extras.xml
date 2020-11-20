@@ -92,6 +92,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
   <project path="vendor/aosp" name="vendor_aosp" remote="droidrom" >
+    <linkfile src="tools/build.sh" dest="build.sh" />
     <linkfile src="tools/opengapps.sh" dest="opengapps.sh" />
   </project>
 
