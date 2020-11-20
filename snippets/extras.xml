@@ -3,7 +3,8 @@
 
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="droidrom" />
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom"/>
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" revision="eleven-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" revision="eleven-legacy-um" />
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="droidrom" />
 
