@@ -1,7 +1,7 @@
 ### Requirements
 - Around 75G disk space
 - 20G or more usable internet
-- A computer with at least 8G RAM running Linux or MacOS
+- A computer with at least 16G RAM running Linux or MacOS
 - A brain
 
 ### Instructions
