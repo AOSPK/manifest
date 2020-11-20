@@ -39,7 +39,14 @@
         ```
         repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --force-sync
         ```
-    4. The ROM is ready! Get ready to prepare your device-specific.
+
+- OpenGApps
+    1. Due to the excessive size of the .apk, some of them are not synchronized correctly only in the sync of the manifest. To correct this problem, we use a script at the root of the ROM, called `opengapps.sh`.
+    2. In order for it to work correctly, it is necessary to have installed the `git-lfs` package in your distribution.
+    3. After that, run the script:
+        ```
+        ./opengapps.sh
+        ```
 
 - Preparing device
     1. Clone your tree repositories
