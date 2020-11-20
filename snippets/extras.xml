@@ -91,7 +91,10 @@
 
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="droidrom" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="droidrom" >
+    <linkfile src="tools/opengapps.sh" dest="opengapps.sh" />
+  </project>
+
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
