@@ -3,10 +3,11 @@
 - 20G or more usable internet
 - A computer with at least 16G RAM running Linux or MacOS
 - A brain
+- Patience
 
 ### Instructions
 - Preparing the SERVER
-    1. To prepare your server, i recommend using Akhil Narang scripts https://github.com/akhilnarang/scripts
+    1. To prepare your server, i recommend using [**Akhil Narang**](https://github.com/akhilnarang/scripts) scripts.
     2. Make directory for the repo binary
         ```
         mkdir ~/bin
@@ -25,15 +26,15 @@
         ```
     6. Creating directory for where the ROM repo will be stored and synced
         ```
-        mkdir ~/ROM
-        cd ~/ROM
+        mkdir ~/DroidROM
+        cd ~/DroidROM
         ```
 
 - Preparing the ROM
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init -u https://github.com/DroidROM/manifest -b eleven
+        repo init --depth=1 -u https://github.com/DroidROM/manifest -b eleven
         ```
     3. Sync!
         ```
@@ -41,9 +42,10 @@
         ```
 
 - OpenGApps
-    1. Due to the excessive size of the .apk, some of them are not synchronized correctly only in the sync of the manifest. To correct this problem, we use a script at the root of the ROM, called `opengapps.sh`.
-    2. In order for it to work correctly, it is necessary to have installed the `git-lfs` package in your distribution.
-    3. After that, run the script:
+    1. **NOTE** If you are not going to use the `build.sh` script, read below:
+    2. Due to the excessive size of the .apk, some of them are not synchronized correctly only in the sync of the manifest. To correct this problem, we use a script at the root of the ROM, called `opengapps.sh`.
+    3. In order for it to work correctly, it is necessary to have installed the `git-lfs` package in your distribution.
+    4. After that, run the script:
         ```
         ./opengapps.sh
         ```
@@ -72,6 +74,10 @@
 - Building
     1. Run
         ```
+        ./build.sh <device>
+        ```
+    2. If you want to do it manually, run:
+        ```
         . build/envsetup.sh
         lunch aosp_<device>-userdebug
         make -j$(nproc --all) bacon
@@ -86,9 +92,13 @@
         ```
         make -j$(nproc --all) bacon 2>&1 | tee log.txt
         ```
-    2. This will start compiling the build.
-    3. Resolve errors if any and continue building.
-    4. Remember to `make clobber && make clean` every now and then!
+    3. This will start compiling the build.
+    4. Resolve errors if any and continue building.
+    5. Remember to `make clobber && make clean` every now and then!
+
+### Credits
+- This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
+- [**OpenGApps**](https://github.com/opengapps) included
 
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
