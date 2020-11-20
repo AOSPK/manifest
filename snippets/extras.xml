@@ -83,7 +83,7 @@
   <project path="lineage-sdk" name="custom-sdk" remote="droidrom" />
 
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droidrom" />
-  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidrom" />
   <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droidrom" />
 
