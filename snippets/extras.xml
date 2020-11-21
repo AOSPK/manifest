@@ -17,6 +17,7 @@
   <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
   <project path="external/htop" name="android_external_htop" remote="los" />
+  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
   <project path="external/libncurses" name="android_external_libncurses" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="los" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
@@ -87,6 +88,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidrom" />
   <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droidrom" />
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
 
