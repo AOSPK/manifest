@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="droidrom" />
-  <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" revision="eleven-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droidrom" revision="eleven-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="droidrom" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="droid" />
+  <project path="device/lineage/atv" name="device_lineage_atv" remote="droid" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" revision="eleven-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" revision="eleven-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="droid" />
 
-  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="los" />
-  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="los" />
-  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="los" />
-  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" />
-  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="los" />
-  <project path="external/bash" name="android_external_bash" remote="los" />
-  <project path="external/connectivity" name="android_external_connectivity" groups="qcom,pdk-qcom" remote="los" />
-  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="los" />
-  <project path="external/htop" name="android_external_htop" remote="los" />
-  <project path="external/json-c" name="android_external_json-c" groups="qcom,pdk-qcom" remote="los" />
-  <project path="external/libncurses" name="android_external_libncurses" remote="los" />
-  <project path="external/nano" name="android_external_nano" remote="los" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="los" />
-  <project path="external/p7zip" name="android_external_p7zip" remote="los" />
-  <project path="external/pigz" name="android_external_pigz" remote="los" />
-  <project path="external/rsync" name="android_external_rsync" remote="los" />
-  <project path="external/unrar" name="android_external_unrar" remote="los" />
-  <project path="external/vim" name="android_external_vim" remote="los" />
-  <project path="external/zip" name="android_external_zip" remote="los" />
+  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="droid" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="droid" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="droid" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="droid" />
+  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="droid" />
+  <project path="external/bash" name="external_bash" remote="droid" />
+  <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="droid" />
+  <project path="external/htop" name="external_htop" remote="droid" />
+  <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="external/libncurses" name="external_libncurses" remote="droid" />
+  <project path="external/nano" name="external_nano" remote="droid" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="droid" />
+  <project path="external/p7zip" name="external_p7zip" remote="droid" />
+  <project path="external/pigz" name="external_pigz" remote="droid" />
+  <project path="external/rsync" name="external_rsync" remote="droid" />
+  <project path="external/unrar" name="external_unrar" remote="droid" />
+  <project path="external/vim" name="external_vim" remote="droid" />
+  <project path="external/zip" name="external_zip" remote="droid" />
 
-  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="los" />
-  <project path="hardware/lineage/interfaces" name="android_hardware_lineage_interfaces" remote="los" />
-  <project path="hardware/lineage/livedisplay" name="android_hardware_lineage_livedisplay" remote="los" />
+  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="droid" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="droid" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="droid" />
 
-  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="los" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="droid" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
@@ -85,43 +85,43 @@
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8150" />
 
   <project path="hardware/qcom-caf/bt" name="android_hardware_qcom_bt" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf" />
-  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" groups="qcom,pdk-qcom" remote="los" />
+  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,pdk-qcom" remote="droid" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="los" revision="lineage-18.0-caf" />
 
-  <project path="lineage-sdk" name="custom-sdk" remote="droidrom" />
+  <project path="lineage-sdk" name="custom-sdk" remote="droid" />
 
-<!--  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droidrom" /> -->
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droidrom" />
-  <project path="packages/apps/LineageCustomizer" name="android_packages_apps_LineageCustomizer" remote="los" />
-  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droidrom" />
-  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+<!--  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droid" /> -->
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droid" />
+  <project path="packages/apps/LineageCustomizer" name="packages_apps_LineageCustomizer" remote="droid" />
+  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droid" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droid" />
 
-  <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" clone-depth="1" remote="droid" />
 
-  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="droid" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="droidrom" >
+  <project path="vendor/aosp" name="vendor_aosp" remote="droid" >
     <linkfile src="tools/build.sh" dest="build.sh" />
     <linkfile src="tools/opengapps.sh" dest="opengapps.sh" />
   </project>
 
-  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="los" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="los" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="los" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="droid" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="droid" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="droid" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="droid" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="droid" />
   <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.0-pn5xx" />
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.0-pn5xx" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.0-sn100x" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.0-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="los" />
-  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="los" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="los" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="droid" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="droid" />
 
 </manifest>
