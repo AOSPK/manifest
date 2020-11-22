@@ -70,6 +70,7 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="droid" />
   <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" groups="pdk-fs" remote="droid" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="droid" />
+  <project path="packages/apps/PermissionController" name="packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="droid" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="droid" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" remote="droid" />
   <project path="packages/apps/SecureElement" name="packages_apps_SecureElement" groups="apps_se,pdk-fs" remote="droid" />
