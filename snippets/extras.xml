@@ -54,41 +54,41 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
 </project>
 
-  <project path="hardware/qcom-caf/apq8084/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-apq8084" />
 
-  <project path="hardware/qcom-caf/msm8916/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8916" />
 
-  <project path="hardware/qcom-caf/msm8960/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8960" />
 
-  <project path="hardware/qcom-caf/msm8974/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8974" />
 
-  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8996" />
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8998" />
 
-  <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sdm845" />
 
-  <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sm8150" />
 
-  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-18.0-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-18.0-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sm8250" />
 
   <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="droid" />
@@ -121,10 +121,10 @@
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="droid" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="droid" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="droid" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.0-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.0-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="los" revision="lineage-18.0-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="los" revision="lineage-18.0-sn100x" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="droid" revision="eleven-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="droid" revision="eleven-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="droid" revision="eleven-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="droid" revision="eleven-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="droid" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="droid" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="droid" />
