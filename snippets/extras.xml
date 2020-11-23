@@ -99,7 +99,6 @@
 
 <!--  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droid" /> -->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droid" />
-  <project path="packages/apps/LineageCustomizer" name="packages_apps_LineageCustomizer" remote="droid" />
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droid" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droid" />
 
