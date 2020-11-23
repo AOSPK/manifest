@@ -130,5 +130,6 @@
   <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="droid" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="droid" />
   <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="droid" />
 
 </manifest>
