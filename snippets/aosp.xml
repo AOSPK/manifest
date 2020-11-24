@@ -8,6 +8,9 @@
   <remote  name="github"
            fetch="https://github.com/" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
   <project path="bionic" name="bionic" groups="pdk" remote="droid" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="droid" />
   <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="droid" />

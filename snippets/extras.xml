@@ -111,12 +111,9 @@
 
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="droid" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="droid" >
-    <linkfile src="tools/build.sh" dest="build.sh" />
-    <linkfile src="tools/opengapps.sh" dest="opengapps.sh" />
-  </project>
-
+  <project path="vendor/aosp" name="vendor_aosp" remote="droid" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="droid" />
+  <project path="vendor/google/gms" name="DroidROM/vendor_google_gms" remote="gitlab" revision="eleven" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="droid" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="droid" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="droid" />
