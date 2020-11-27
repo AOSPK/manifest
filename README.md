@@ -26,15 +26,15 @@
         ```
     6. Creating directory for where the ROM repo will be stored and synced
         ```
-        mkdir ~/DroidROM
-        cd ~/DroidROM
+        mkdir ~/AOSPK
+        cd ~/AOSPK
         ```
 
 - Preparing the ROM
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init --depth=1 -u https://github.com/DroidROM/manifest -b eleven
+        repo init --depth=1 -u https://github.com/AOSPK/manifest -b eleven
         ```
     3. Sync!
         ```

@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="droid" />
-  <project path="device/lineage/atv" name="device_lineage_atv" remote="droid" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" revision="eleven-legacy" />
-  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="droid" revision="eleven-legacy-um" />
-  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
+  <project path="device/lineage/atv" name="device_lineage_atv" remote="aospk" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy-um" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="aospk" />
 
-  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="droid" />
-  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="droid" />
-  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="droid" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="droid" />
-  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="droid" />
-  <project path="external/bash" name="external_bash" remote="droid" />
-  <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="external/exfatprogs" name="external_exfatprogs" remote="droid" />
-  <project path="external/htop" name="external_htop" remote="droid" />
-  <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="external/libncurses" name="external_libncurses" remote="droid" />
-  <project path="external/nano" name="external_nano" remote="droid" />
-  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="droid" />
-  <project path="external/p7zip" name="external_p7zip" remote="droid" />
-  <project path="external/pigz" name="external_pigz" remote="droid" />
-  <project path="external/rsync" name="external_rsync" remote="droid" />
-  <project path="external/unrar" name="external_unrar" remote="droid" />
-  <project path="external/vim" name="external_vim" remote="droid" />
-  <project path="external/zip" name="external_zip" remote="droid" />
+  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="aospk" />
+  <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospk" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospk" />
+  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospk" />
+  <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="aospk" />
+  <project path="external/bash" name="external_bash" remote="aospk" />
+  <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
+  <project path="external/htop" name="external_htop" remote="aospk" />
+  <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="external/libncurses" name="external_libncurses" remote="aospk" />
+  <project path="external/nano" name="external_nano" remote="aospk" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospk" />
+  <project path="external/p7zip" name="external_p7zip" remote="aospk" />
+  <project path="external/pigz" name="external_pigz" remote="aospk" />
+  <project path="external/rsync" name="external_rsync" remote="aospk" />
+  <project path="external/unrar" name="external_unrar" remote="aospk" />
+  <project path="external/vim" name="external_vim" remote="aospk" />
+  <project path="external/zip" name="external_zip" remote="aospk" />
 
-  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="droid" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="droid" />
-  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="droid" />
+  <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="aospk" />
+  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="aospk" />
+  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="aospk" />
 
-  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="droid" >
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aospk" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
@@ -54,83 +54,83 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
 </project>
 
-  <project path="hardware/qcom-caf/apq8084/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-apq8084" />
-  <project path="hardware/qcom-caf/apq8084/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-apq8084" />
+  <project path="hardware/qcom-caf/apq8084/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-apq8084" />
 
-  <project path="hardware/qcom-caf/msm8916/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8916" />
-  <project path="hardware/qcom-caf/msm8916/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8916" />
+  <project path="hardware/qcom-caf/msm8916/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8916" />
 
-  <project path="hardware/qcom-caf/msm8960/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8960" />
-  <project path="hardware/qcom-caf/msm8960/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8960" />
+  <project path="hardware/qcom-caf/msm8960/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8960" />
 
-  <project path="hardware/qcom-caf/msm8974/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8974" />
-  <project path="hardware/qcom-caf/msm8974/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8974" />
+  <project path="hardware/qcom-caf/msm8974/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8974" />
 
-  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8996" />
 
-  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-msm8998" />
-  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8998" />
 
-  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sdm845" />
-  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-sdm845" />
 
-  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sm8150" />
-  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-sm8150" />
 
-  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="droid" revision="eleven-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="droid" revision="eleven-caf-sm8250" />
-  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-sm8250" />
 
-  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom,pdk-qcom" remote="droid" revision="eleven-caf" />
-  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="droid" revision="eleven-caf" />
+  <project path="hardware/qcom-caf/bt" name="hardware_qcom_bt" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aospk" revision="eleven-caf" />
 
-  <project path="lineage-sdk" name="custom-sdk" remote="droid" />
+  <project path="lineage-sdk" name="custom-sdk" remote="aospk" />
 
-  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="droid" />
-  <project path="packages/apps/Customizer" name="packages_apps_Customizer" remote="droid" />
-  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="droid" />
-  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="droid" />
-  <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="droid" />
-  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="droid" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="droid" />
-  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="droid" />
-  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="droid" />
+  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
+  <project path="packages/apps/Customizer" name="packages_apps_Customizer" remote="aospk" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
+  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="aospk" />
+  <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="aospk" />
+  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="aospk" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
+  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
-  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" clone-depth="1" remote="droid" />
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" clone-depth="1" remote="aospk" />
 
-  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="droid" />
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
 
-  <project path="vendor/aosp" name="vendor_aosp" remote="droid" />
-  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="droid" />
-  <project path="vendor/google/gms" name="DroidROM/vendor_google_gms" remote="gitlab" revision="eleven" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="droid" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="droid" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="droid" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="droid" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="droid" revision="eleven-pn5xx" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="droid" revision="eleven-pn5xx" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="droid" revision="eleven-sn100x" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="droid" revision="eleven-sn100x" />
-  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="droid" />
-  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="droid" />
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="droid" />
+  <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
+  <project path="vendor/google/gms" name="AOSPK/vendor_google_gms" remote="gitlab" revision="eleven" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="eleven-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="eleven-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="eleven-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="eleven-sn100x" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="vendor_qcom_opensource_cryptfs_hw" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" groups="qcom,qcom_fm" remote="aospk" />
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="aospk" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="aospk" />
 
 </manifest>
