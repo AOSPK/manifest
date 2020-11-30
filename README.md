@@ -1,5 +1,5 @@
 ### Requirements
-- Around 75G disk space
+- Around 250G disk space
 - 20G or more usable internet
 - A computer with at least 16G RAM running Linux or MacOS
 - A brain
@@ -41,15 +41,6 @@
         repo sync -c -j$(nproc --all) --no-clone-bundle --no-tags --force-sync
         ```
 
-- OpenGApps
-    1. **NOTE** If you are not going to use the `build.sh` script, read below:
-    2. Due to the excessive size of the .apk, some of them are not synchronized correctly only in the sync of the manifest. To correct this problem, we use a script at the root of the ROM, called `opengapps.sh`.
-    3. In order for it to work correctly, it is necessary to have installed the `git-lfs` package in your distribution.
-    4. After that, run the script:
-        ```
-        ./opengapps.sh
-        ```
-
 - Preparing device
     1. Clone your tree repositories
         Example:
@@ -72,11 +63,7 @@
     4. Save and exit
 
 - Building
-    1. Run
-        ```
-        ./build.sh <device>
-        ```
-    2. If you want to do it manually, run:
+    1. If you want to do it manually, run:
         ```
         . build/envsetup.sh
         lunch aosp_<device>-userdebug
@@ -92,13 +79,13 @@
         ```
         make -j$(nproc --all) bacon 2>&1 | tee log.txt
         ```
-    3. This will start compiling the build.
-    4. Resolve errors if any and continue building.
-    5. Remember to `make clobber && make clean` every now and then!
+    2. This will start compiling the build.
+    3. Resolve errors if any and continue building.
+    4. Remember to `make clobber && make clean` every now and then!
 
 ### Credits
 - This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
-- [**OpenGApps**](https://github.com/opengapps) included
+- **GAPPS** included
 
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
