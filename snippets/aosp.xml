@@ -11,6 +11,8 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <project path="art" name="art" groups="pdk" remote="aospk" />
+
   <project path="bionic" name="bionic" groups="pdk" remote="aospk" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aospk" />
   <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="aospk" />
