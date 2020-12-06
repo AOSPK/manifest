@@ -55,6 +55,8 @@
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aospk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aospk" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aospk" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk-qcom" remote="aospk" />
   <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="aospk" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aospk" />
