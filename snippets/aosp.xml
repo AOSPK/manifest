@@ -122,7 +122,7 @@
 
   <project path="system/apex" name="system_apex" groups="pdk" remote="aospk" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="aospk" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" remote="github" revision="lineage-18.0" />
+  <project path="system/core" name="AOSPK/system_core" groups="pdk" remote="gitlab" revision="eleven" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" groups="pdk" remote="aospk" />
   <project path="system/libufdt" name="system_libufdt" groups="pdk" remote="aospk" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aospk" />
