@@ -85,7 +85,7 @@
 
 ### Credits
 - This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
-- **GAPPS** included
+- **Google Apps** included
 
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
