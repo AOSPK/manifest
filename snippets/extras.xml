@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
-  <project path="device/lineage/atv" name="device_lineage_atv" remote="aospk" />
+  <project path="device/custom/atv" name="device_custom_atv" remote="aospk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy-um" />
@@ -29,8 +29,8 @@
   <project path="external/zip" name="external_zip" remote="aospk" />
 
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="aospk" />
-  <project path="hardware/lineage/interfaces" name="hardware_lineage_interfaces" remote="aospk" />
-  <project path="hardware/lineage/livedisplay" name="hardware_lineage_livedisplay" remote="aospk" />
+  <project path="hardware/lineage/interfaces" name="hardware_custom_interfaces" remote="aospk" />
+  <project path="hardware/lineage/livedisplay" name="hardware_custom_livedisplay" remote="aospk" />
 
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aospk" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -106,7 +106,7 @@
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
-  <project path="prebuilts/tools-lineage" name="prebuilts_tools-lineage" clone-depth="1" remote="aospk" />
+  <project path="prebuilts/tools-lineage" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
 
