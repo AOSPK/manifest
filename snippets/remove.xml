@@ -98,6 +98,7 @@
 
   <remove-project name="platform/packages/apps/BasicSmsReceiver" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <remove-project name="platform/packages/apps/CellBroadcastReceiver" />
