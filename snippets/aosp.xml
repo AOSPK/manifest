@@ -35,7 +35,6 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="aospk" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" groups="pdk" remote="aospk" />
 
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" remote="github" revision="master" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aospk" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="aospk" />
   <project path="external/guice" name="external_guice" groups="pdk" remote="aospk" />
