@@ -83,10 +83,6 @@
     3. Resolve errors if any and continue building.
     4. Remember to `make clobber && make clean` every now and then!
 
-### Credits
-- This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
-- **Google Apps** included
-
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
 - Make sure you provide relevant logs, screenshots and details with all sources you used.
