@@ -119,7 +119,6 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" remote="aospk" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" groups="pdk,linux,x86" clone-depth="1" remote="aospk" />
 
-  <project path="system/apex" name="system_apex" groups="pdk" remote="aospk" />
   <project path="system/bt" name="system_bt" groups="pdk" remote="aospk" />
   <project path="system/core" name="system_core" groups="pdk" remote="aospk" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" groups="pdk" remote="aospk" />
