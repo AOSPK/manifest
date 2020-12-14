@@ -41,6 +41,7 @@
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="aospk" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aospk" />
   <project path="external/openssh" name="external_openssh" groups="pdk" remote="aospk" />
+  <project path="external/perfetto" name="external_perfetto" groups="pdk" remote="aospk" />
   <project path="external/tinyalsa" name="external_tinyalsa" groups="pdk" remote="aospk" />
   <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="aospk" />
 
