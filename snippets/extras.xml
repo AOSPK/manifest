@@ -108,6 +108,7 @@
 
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
+  <project path="system/qcom" name="system_qcom" remote="aospk" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
 
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
