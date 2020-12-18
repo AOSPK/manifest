@@ -55,7 +55,6 @@
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" groups="pdk" remote="aospk" />
   <project path="hardware/interfaces" name="hardware_interfaces" groups="pdk" remote="aospk" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="aospk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="aospk" />
   <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aospk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" groups="qcom,pdk-qcom" remote="aospk" />
