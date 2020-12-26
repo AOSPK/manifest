@@ -102,6 +102,7 @@
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="aospk" />
   <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="aospk" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="aospk" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
