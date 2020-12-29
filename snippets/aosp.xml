@@ -35,9 +35,11 @@
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="aospk" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" groups="pdk" remote="aospk" />
 
+  <project path="external/cldr" name="external_cldr" groups="pdk" remote="aospk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aospk" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="aospk" />
   <project path="external/guice" name="external_guice" groups="pdk" remote="aospk" />
+  <project path="external/icu" name="external_icu" groups="pdk" remote="aospk" />
   <project path="external/libcxx" name="external_libcxx" groups="pdk" remote="aospk" />
   <project path="external/mksh" name="external_mksh" groups="pdk" remote="aospk" />
   <project path="external/openssh" name="external_openssh" groups="pdk" remote="aospk" />
@@ -133,6 +135,7 @@
   <project path="system/libufdt" name="system_libufdt" groups="pdk" remote="aospk" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aospk" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aospk" />
+  <project path="system/timezone" name="system_timezone" groups="pdk" remote="aospk" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="aospk" />
   <project path="system/update_engine" name="system_update_engine" groups="pdk" remote="aospk" />
   <project path="system/vold" name="system_vold" groups="pdk" remote="aospk" />
