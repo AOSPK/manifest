@@ -19,6 +19,7 @@
   <project path="external/htop" name="external_htop" remote="aospk" />
   <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/libncurses" name="external_libncurses" remote="aospk" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="aospk" />
   <project path="external/nano" name="external_nano" remote="aospk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospk" />
   <project path="external/p7zip" name="external_p7zip" remote="aospk" />
