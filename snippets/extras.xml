@@ -108,10 +108,13 @@
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
+  <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
   <project path="prebuilts/tools-lineage" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
   <project path="system/qcom" name="system_qcom" remote="aospk" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
+
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="aospk" />
 
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
