@@ -7,7 +7,7 @@
 
   <remote  name="aospk-devices"
            fetch="https://github.com/AOSPK-Devices"
-           revision="eleven" />
+           revision="refs/heads/eleven" />
 
   <remote  name="github"
            fetch="https://github.com/" />
