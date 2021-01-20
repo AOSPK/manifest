@@ -32,6 +32,7 @@
 
   <project path="development" name="development" groups="developers,pdk-cw-fs,pdk-fs" remote="aospk" />
 
+  <project path="device/google/atv" name="device_google_atv" groups="device,broadcom_pdk,generic_fs,pdk" remote="aospk" />
   <project path="device/generic/goldfish" name="device_generic_goldfish" groups="pdk" remote="aospk" />
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" groups="pdk" remote="aospk" />
 
