@@ -5,6 +5,10 @@
            fetch="https://github.com/AOSPK"
            revision="refs/heads/eleven" />
 
+  <remote  name="aospk-devices"
+           fetch="https://github.com/AOSPK-Devices"
+           revision="eleven" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
