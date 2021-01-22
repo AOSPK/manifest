@@ -3,7 +3,8 @@
 
   <remote  name="aospk"
            fetch="https://github.com/AOSPK"
-           revision="refs/heads/eleven" />
+           revision="refs/heads/eleven"
+           review="gerrit.aospk.org" />
 
   <remote  name="aospk-devices"
            fetch="https://github.com/AOSPK-Devices"
