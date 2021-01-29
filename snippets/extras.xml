@@ -37,6 +37,7 @@
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/apq8084/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8916/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8952/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8960/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8974/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
@@ -63,6 +64,10 @@
   <project path="hardware/qcom-caf/msm8916/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8916" />
   <project path="hardware/qcom-caf/msm8916/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8916" />
+
+  <project path="hardware/qcom-caf/msm8952/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8952" />
+  <project path="hardware/qcom-caf/msm8952/media" name="hardware_qcom_media" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-caf-msm8952" />
 
   <project path="hardware/qcom-caf/msm8960/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" remote="aospk" revision="eleven-caf-msm8960" />
   <project path="hardware/qcom-caf/msm8960/display" name="hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="aospk" revision="eleven-caf-msm8960" />
