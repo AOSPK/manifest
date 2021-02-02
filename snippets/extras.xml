@@ -111,6 +111,7 @@
 
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
   <project path="packages/apps/Customizer" name="packages_apps_Customizer" remote="aospk" />
+  <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="aospk" />
   <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="aospk" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="aospk" />
