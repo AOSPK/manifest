@@ -6,8 +6,12 @@
            revision="refs/heads/eleven"
            review="gerrit.aospk.org" />
 
-  <remote  name="aospk-devices"
+  <remote  name="hub-devices"
            fetch="https://github.com/AOSPK-Devices"
+           revision="refs/heads/eleven" />
+
+  <remote  name="lab-devices"
+           fetch="https://gitlab.com/AOSPK-Devices"
            revision="refs/heads/eleven" />
 
   <remote  name="github"
