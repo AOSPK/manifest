@@ -152,6 +152,7 @@
   <project path="system/incremental_delivery" name="system_incremental_delivery" groups="pdk" remote="aospk" />
   <project path="system/libufdt" name="system_libufdt" groups="pdk" remote="aospk" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aospk" />
+  <project path="system/security" name="system_security" groups="pdk" remote="aospk" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aospk" />
   <project path="system/timezone" name="system_timezone" groups="pdk" remote="aospk" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" groups="pdk" remote="aospk" />
