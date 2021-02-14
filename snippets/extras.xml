@@ -110,12 +110,10 @@
   <project path="custom-sdk" name="custom-sdk" remote="aospk" />
 
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
-  <project path="packages/apps/Customizer" name="packages_apps_Customizer" remote="aospk" />
+  <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
-  <project path="packages/apps/FlipFlap" name="packages_apps_FlipFlap" remote="aospk" />
-  <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="aospk" />
-  <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
+  <project path="packages/apps/TvCustomizer" name="packages_apps_TvCustomizer" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
