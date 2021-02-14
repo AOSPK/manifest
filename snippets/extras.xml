@@ -30,8 +30,8 @@
   <project path="external/zip" name="external_zip" remote="aospk" />
 
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="aospk" />
-  <project path="hardware/lineage/interfaces" name="hardware_custom_interfaces" remote="aospk" />
-  <project path="hardware/lineage/livedisplay" name="hardware_custom_livedisplay" remote="aospk" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="aospk" />
+  <project path="hardware/custom/livedisplay" name="hardware_custom_livedisplay" remote="aospk" />
 
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aospk" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -121,7 +121,7 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
-  <project path="prebuilts/tools-lineage" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
+  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
   <project path="system/qcom" name="system_qcom" remote="aospk" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
