@@ -20,6 +20,8 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com/" />
 
+  <project path="manifest" name="manifest" remote="aospk" />
+
   <project path="art" name="art" groups="pdk" remote="aospk" />
 
   <project path="bionic" name="bionic" groups="pdk" remote="aospk" />
