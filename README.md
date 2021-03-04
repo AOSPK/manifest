@@ -41,7 +41,7 @@ The Kraken Project
     1. Make sure you have a build environment setup.
     2. Make a new directory, cd to it and run
         ```
-        repo init --depth=1 -u https://github.com/AOSPK/manifest -b eleven
+        repo init -u https://github.com/AOSPK/manifest -b eleven
         ```
     3. Sync!
         ```
