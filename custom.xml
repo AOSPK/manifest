@@ -65,6 +65,7 @@
   <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aospk" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aospk" />
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="aospk" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="aospk" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="aospk" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="aospk" />
