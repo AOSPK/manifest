@@ -67,6 +67,7 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="aospk" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="aospk" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="aospk" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="aospk" />
 
   <project path="kraken/official_devices" name="official_devices" groups="infra" remote="aospk" revision="master" />
 
