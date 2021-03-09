@@ -70,6 +70,10 @@
 
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="aospk" />
 
+  <project path="system/bpf" name="system_bpf" groups="pdk" remote="aospk" />
+  <project path="system/bt" name="system_bt" groups="pdk" remote="aospk" />
   <project path="system/core" name="system_core" groups="pdk" remote="aospk" />
+  <project path="system/netd" name="system_netd" groups="pdk" remote="aospk" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aospk" />
 
 </manifest>

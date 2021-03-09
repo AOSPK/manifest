@@ -93,6 +93,10 @@
 
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
+  <remove-project name="platform/system/bpf" />
+  <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/netd" />
+  <remove-project name="platform/system/sepolicy" />
 
 </manifest>
