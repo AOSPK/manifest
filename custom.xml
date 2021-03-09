@@ -62,7 +62,7 @@
   <project path="vendor/gapps" name="vendor_gapps" remote="aospk-gitlab" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" revision="eleven" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" revision="eleven" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" revision="eleven" />
+<!--  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" revision="eleven" /> -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="aospk" revision="eleven" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="aospk" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" groups="qcom,pdk-qcom" remote="aospk" revision="eleven" />
