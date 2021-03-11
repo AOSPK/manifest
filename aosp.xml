@@ -68,6 +68,7 @@
 
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" groups="pdk-fs" remote="aospk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aospk" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" groups="pdk-fs" remote="aospk" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="aospk" />
 
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" groups="pdk-fs" clone-depth="1" remote="aospk" />
