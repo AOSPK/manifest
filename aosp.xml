@@ -76,5 +76,6 @@
   <project path="system/core" name="system_core" groups="pdk" remote="aospk" />
   <project path="system/netd" name="system_netd" groups="pdk" remote="aospk" />
   <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aospk" />
+  <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="aospk" />
 
 </manifest>
