@@ -89,6 +89,7 @@
   <remove-project name="platform/hardware/nxp/secure_element" />
   <remove-project name="platform/hardware/ril" />
 
+  <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
 
