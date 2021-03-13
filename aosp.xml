@@ -54,6 +54,8 @@
   <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospk" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aospk" />
+  <project path="hardware/nxp/secure_element" name="hardware_nxp_secure_element" groups="pdk" remote="aospk" />
 
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" groups="pdk-fs" remote="aospk" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="aospk" />

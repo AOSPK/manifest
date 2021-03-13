@@ -76,6 +76,8 @@
   <remove-project name="platform/frameworks/opt/timezonepicker" />
 
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/nxp/secure_element" />
 
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
