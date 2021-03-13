@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- device repos -->
   <remove-project name="device/amlogic/yukawa" />
   <remove-project name="device/amlogic/yukawa-kernel" />
   <remove-project name="device/common" />
@@ -58,61 +59,59 @@
   <remove-project name="device/ti/beagle-x15" />
   <remove-project name="device/ti/beagle-x15-kernel" />
 
+  <!-- general repos -->
   <remove-project name="platform/art" />
-
-  <remove-project name="platform/bionic" />
-
+  <remove-project name="platform/bootable/recovery" />
+  <remove-project name="platform/build/blueprint" />
   <remove-project name="platform/build" />
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bionic" />
 
-  <remove-project name="platform/external/libcxx" />
+  <!-- external repos -->
   <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
+  <!-- framework repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/timezonepicker" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
+  <!-- hardware repos -->
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/nxp/nfc" />
-  <remove-project name="platform/hardware/nxp/secure_element" />
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/ril" />
 
+  <!-- packages repos -->
+  <remove-project name="platform/packages/apps/Camera2" />
   <remove-project name="platform/packages/apps/Contacts" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/DocumentsUI" />
   <remove-project name="platform/packages/apps/Launcher3" />
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/WallpaperPicker2" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/providers/BlockedNumberProvider" />
-  <remove-project name="platform/packages/providers/BookmarkProvider" />
-  <remove-project name="platform/packages/providers/CalendarProvider" />
-  <remove-project name="platform/packages/providers/CallLogProvider" />
+  <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/services/Mms" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/wallpapers/LivePicker" />
 
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
+  <!-- prebuilt repos -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
 
+  <!-- system repos -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/update_engine" />
+  <remove-project name="platform/system/sepolicy" />
+  <remove-project name="platform/system/tools/mkbootimg" />
 
 </manifest>
