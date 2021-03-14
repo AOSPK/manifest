@@ -29,6 +29,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
     <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
@@ -44,6 +46,22 @@
   </project>
 
   <!-- hardware qcom audio/display/media repos -->
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-msm8996" />
+
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-msm8998" />
+
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media" groups="qcom,qcom_media" remote="aospk" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="aospk" revision="twelve-caf-sdm660" />
+
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sdm845" />
+
   <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8150" />
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8150" />
@@ -51,6 +69,10 @@
   <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8250" />
+
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8350" />
 
   <!-- packages repos -->
   <project path="packages/apps/CustomPrebuilts" name="packages_apps_CustomPrebuilts" clone-depth="1" remote="aospk" />
