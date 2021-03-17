@@ -24,6 +24,9 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+  <!-- manifest -->
+  <project path="manifest" name="manifest" groups="pdk" remote="aospk" />
+
   <!-- general repos -->
   <project path="art" name="art" remote="aospk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="aospk" />
