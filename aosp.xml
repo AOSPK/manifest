@@ -47,6 +47,8 @@
   <project path="bionic" name="bionic" groups="pdk" remote="aospk" />
 
   <!-- external repos -->
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aospk" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="aospk" />
   <project path="external/mksh" name="external_mksh" remote="aospk" />
   <project path="external/selinux" name="external_selinux" remote="aospk" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aospk" />
@@ -81,6 +83,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospk" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospk" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospk" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="aospk" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" clone-depth="1" remote="aospk" />
