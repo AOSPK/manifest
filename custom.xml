@@ -169,8 +169,6 @@
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="aospk" />
 
-  <project path="kraken/downloadcenter" name="downloadcenter" groups="infra" remote="aospk" revision="master" />
   <project path="kraken/official_devices" name="official_devices" groups="infra" remote="aospk" revision="master" />
-  <project path="kraken/www" name="www" groups="infra" remote="aospk" revision="master" />
 
 </manifest>
