@@ -15,7 +15,9 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
   <project path="external/json-c" name="external_json-c" remote="aospk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospk" />
+  <project path="external/themelib" name="external_themelib" remote="aospk" />
   <project path="external/tinyxml" name="external_tinyxml" remote="aospk" />
+  <project path="external_colorkt" name="external_colorkt" remote="aospk" />
 
   <!-- hardware qcom repos -->
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="aospk" revision="twelve-caf" />
