@@ -16,6 +16,7 @@
   <project path="external/bash" name="external_bash" remote="aospk" />
   <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="aospk" />
   <project path="external/htop" name="external_htop" remote="aospk" />
   <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/libncurses" name="external_libncurses" remote="aospk" />
@@ -112,6 +113,7 @@
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
   <project path="packages/apps/TvCustomizer" name="packages_apps_TvCustomizer" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
