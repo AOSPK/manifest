@@ -131,7 +131,7 @@
 
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
-  <project path="vendor/gapps" name="AOSPK/vendor_gapps" remote="gitlab" revision="eleven" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="aospk-gitlab" />
   <project path="vendor/google/pixel" name="vendor_google_pixel" remote="aospk" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" />

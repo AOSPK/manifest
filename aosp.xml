@@ -3,8 +3,12 @@
 
   <remote  name="aospk"
            fetch="https://github.com/AOSPK"
-           revision="refs/heads/eleven"
-           review="gerrit.aospk.org" />
+           review="gerrit.aospk.org"
+           revision="refs/heads/eleven" />
+
+  <remote  name="aospk-gitlab"
+           fetch="https://gitlab.com/AOSPK"
+           revision="refs/heads/eleven" />
 
   <remote  name="hub-devices"
            fetch="https://github.com/AOSPK-Devices"
@@ -15,10 +19,10 @@
            revision="refs/heads/eleven" />
 
   <remote  name="github"
-           fetch="https://github.com/" />
+           fetch="https://github.com" />
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+           fetch="https://gitlab.com" />
 
   <project path="manifest" name="manifest" remote="aospk" />
 
