@@ -66,6 +66,7 @@
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aospk" />
 
   <!-- packages repos -->
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospk" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aospk" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aospk" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aospk" />
@@ -77,13 +78,13 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="aospk" />
   <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="aospk" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="aospk" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="aospk" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospk" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospk" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aospk" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospk" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospk" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospk" />
-  <project path="packages/modules/adb" name="packages_modules_adb" remote="aospk" />
 
   <!-- prebuilt repos -->
   <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" clone-depth="1" remote="aospk" />
