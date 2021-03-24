@@ -112,7 +112,4 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="aospk" />
   <project path="vendor/support" name="vendor_support" remote="aospk" />
 
-  <!-- infrastructure repos -->
-  <project path="kraken/official_devices" name="official_devices" groups="infra" remote="aospk" revision="master" />
-
 </manifest>
