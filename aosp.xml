@@ -48,6 +48,7 @@
   <project path="device/generic/goldfish-opengl" name="device_generic_goldfish-opengl" groups="pdk" remote="aospk" />
 
   <project path="external/boringssl" name="external_boringssl" groups="pdk" remote="aospk" />
+  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/cldr" name="external_cldr" groups="pdk" remote="aospk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" remote="aospk" />
   <project path="external/gptfdisk" name="external_gptfdisk" groups="pdk" remote="aospk" />
