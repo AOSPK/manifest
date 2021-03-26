@@ -79,8 +79,9 @@
   <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8350" />
 
   <!-- packages repos -->
-  <project path="packages/apps/CustomPrebuilts" name="packages_apps_CustomPrebuilts" clone-depth="1" remote="aospk" />
+  <project path="packages/apps/CustomPrebuilts" name="packages_apps_CustomPrebuilts" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
+  <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
