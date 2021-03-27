@@ -47,6 +47,11 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
 
   <!-- hardware qcom audio/display/media repos -->
@@ -98,6 +103,14 @@
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
   <project path="vendor/gapps" name="vendor_gapps" remote="aospk-gitlab" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="twelve-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="twelve-sn100x" />
   <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="aospk" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="aospk" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospk" />

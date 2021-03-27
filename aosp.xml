@@ -73,6 +73,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aospk" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospk" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospk" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospk" />
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="aospk" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="aospk" />
