@@ -56,6 +56,7 @@
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="aospk" />
   <project path="frameworks/base" name="frameworks_base" remote="aospk" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="aospk" />
   <project path="frameworks/native" name="frameworks_native" remote="aospk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aospk" />
 
