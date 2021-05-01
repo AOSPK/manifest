@@ -118,7 +118,6 @@
   <project path="packages/apps/Snap" name="packages_apps_Snap" remote="aospk" />
   <project path="packages/apps/TvCustomizer" name="packages_apps_TvCustomizer" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
-  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
