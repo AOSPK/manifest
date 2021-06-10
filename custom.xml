@@ -14,6 +14,7 @@
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospk" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="aospk" />
   <project path="external/bash" name="external_bash" remote="aospk" />
+  <project path="external/bson" name="external_bson" remote="aospk" />
   <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
   <project path="external/faceunlock" name="external_faceunlock" remote="aospk" />
