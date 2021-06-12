@@ -17,7 +17,7 @@
   <project path="external/bson" name="external_bson" remote="aospk" />
   <project path="external/connectivity" name="external_connectivity" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="aospk" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="aospk-gitlab" />
   <project path="external/htop" name="external_htop" remote="aospk" />
   <project path="external/json-c" name="external_json-c" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="external/libncurses" name="external_libncurses" remote="aospk" />
