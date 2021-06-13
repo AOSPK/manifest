@@ -102,7 +102,6 @@
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" groups="pdk-fs" remote="aospk" />
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" groups="pdk-fs" remote="aospk" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" remote="aospk" />
