@@ -121,7 +121,7 @@
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="aospk" />
-  <project path="packages/apps/Navik" name="packages_apps_Navik" remote="aospk" />
+  <project path="packages/apps/KBrowser" name="packages_apps_KBrowser" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
   <project path="packages/apps/TvCustomizer" name="packages_apps_TvCustomizer" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
