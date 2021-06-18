@@ -118,6 +118,7 @@
   <project path="custom-sdk" name="custom-sdk" remote="aospk" />
 
   <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
+  <project path="packages/apps/ElmyraService" name="packages_apps_ElmyraService" remote="aospk" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="aospk" />
