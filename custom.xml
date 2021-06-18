@@ -128,7 +128,7 @@
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
-  <project path="prebuilts/clang/host/linux-x86/clang-13" name="kdrag0n/proton-clang" groups="pdk" clone-depth="1" remote="github" revision="master" />
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" groups="pdk" clone-depth="1" remote="github" revision="master" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
