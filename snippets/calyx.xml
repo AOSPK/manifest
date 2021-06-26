@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="calyx"
+           fetch="https://gitlab.com/CalyxOS/"
+           revision="refs/heads/android11-qpr1" />
+
+  <project name="platform_prebuilts_calyx_chromium_arm" path="prebuilts/calyx/chromium/arm" remote="calyx" clone-depth="1" />
+  <project name="platform_prebuilts_calyx_chromium_arm64" path="prebuilts/calyx/chromium/arm64" remote="calyx" clone-depth="1" />
+  <project name="platform_prebuilts_calyx_chromium_x64" path="prebuilts/calyx/chromium/x64" remote="calyx" clone-depth="1" />
+  <project name="platform_prebuilts_calyx_chromium_x86" path="prebuilts/calyx/chromium/x86" remote="calyx" clone-depth="1" />
+
+</manifest>

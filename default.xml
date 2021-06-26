@@ -834,5 +834,6 @@
   <include name="remove.xml" />
   <include name="aosp.xml" />
   <include name="custom.xml" />
+  <include name="snippets/calyx.xml"/>
 
 </manifest>
