@@ -14,8 +14,8 @@
            fetch="https://github.com/AOSPK-Devices"
            revision="refs/heads/eleven" />
 
-  <remote  name="lab-devices"
-           fetch="https://gitlab.com/AOSPK-Devices"
+  <remote  name="blobs"
+           fetch="https://github.com/TheBootloops"
            revision="refs/heads/eleven" />
 
   <remote  name="github"
