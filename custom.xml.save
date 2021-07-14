@@ -128,6 +128,8 @@
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" groups="pdk" clone-depth="1" remote="github" revision="master" />
+  <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="ruby-12" />
+
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
   <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
 
@@ -138,7 +140,7 @@
 
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
-  <project path="vendor/gapps" name="vendor_gapps" remote="aospk-gitlab" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="aospk-gitlab" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" />
   <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" />
