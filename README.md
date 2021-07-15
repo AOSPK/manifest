@@ -1,9 +1,16 @@
+The Kraken Project
+===========
+
+<a href="https://aospk.org"><img alt="SourceForge" src="https://img.shields.io/sourceforge/dm/aospk?label=KRAKEN%20DOWNLOADS&style=for-the-badge"></a>
+<a href="https://www.buymeacoffee.com/mamutal91"><img alt="BuyMeACoffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a>
+
+### How to apply?
+- Do you want to be part of our team? Read our [**documentation**](https://github.com/AOSPK/official_devices/blob/master/README.md) and fill out our [**application form**](https://github.com/AOSPK/official_devices/issues/new/choose)
+
 ### Requirements
 - Around 250G disk space
 - 20G or more usable internet
 - A computer with at least 16G RAM running Linux or MacOS
-- A brain
-- Patience
 
 ### Instructions
 - Preparing the SERVER
