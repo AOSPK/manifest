@@ -1,9 +1,16 @@
+The Kraken Project
+===========
+
+<a href="https://aospk.org"><img alt="SourceForge" src="https://img.shields.io/sourceforge/dm/aospk?label=KRAKEN%20DOWNLOADS&style=for-the-badge"></a>
+<a href="https://www.buymeacoffee.com/mamutal91"><img alt="BuyMeACoffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a>
+
+### How to apply?
+- Do you want to be part of our team? Read our [**documentation**](https://github.com/AOSPK/official_devices/blob/master/README.md) and fill out our [**application form**](https://github.com/AOSPK/official_devices/issues/new/choose)
+
 ### Requirements
-- Around 75G disk space
+- Around 250G disk space
 - 20G or more usable internet
-- A computer with at least 8G RAM running Linux or MacOS
-- A brain
-- Patience
+- A computer with at least 16G RAM running Linux or MacOS
 
 ### Instructions
 - Preparing the SERVER
@@ -63,7 +70,7 @@
     4. Save and exit
 
 - Building
-    1. Run
+    1. If you want to do it manually, run:
         ```
         . build/envsetup.sh
         lunch aosp_<device>-userdebug
@@ -82,10 +89,6 @@
     2. This will start compiling the build.
     3. Resolve errors if any and continue building.
     4. Remember to `make clobber && make clean` every now and then!
-
-### Credits
-- This project aims to be the purest [**AOSP**](https://android.googlesource.com/) experience, with the improvements of [**LineageOS**](https://github.com/LineageOS)
-- [**OpenGApps**](https://github.com/opengapps) included
 
 ### Reporting compilation issues
 - For common porting related errors, visit [**Android Building Help**](https://t.me/AndroidBuildersHelp)
