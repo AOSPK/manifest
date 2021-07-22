@@ -3,6 +3,7 @@
 
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
   <project path="device/custom/atv" name="device_custom_atv" remote="aospk" />
+  <project path="device/custom/car" name="device_custom_car" remote="aospk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy-um" />
