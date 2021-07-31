@@ -167,6 +167,7 @@
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" remote="aospk" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="LineageOS/android_vendor_qcom_opensource_healthd-ext" remote="LineageOS" />
 
   <project path="kraken/downloadcenter" name="downloadcenter" groups="infra" remote="aospk" revision="master" />
   <project path="kraken/official_devices" name="official_devices" groups="infra" remote="aospk" revision="master" />
