@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aospk"
-           fetch="https://github.com/AOSPK"
+           fetch="ssh://git@github.com/AOSPK-Next"
            review="gerrit.aospk.org"
            revision="refs/heads/twelve" />
 
