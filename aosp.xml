@@ -99,6 +99,7 @@
   <project path="system/media" name="system_media" remote="aospk" />
   <project path="system/sepolicy" name="system_sepolicy" remote="aospk" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="aospk" />
+  <project path="system/update_engine" name="system_update_engine" remote="aospk" />
   <project path="system/vold" name="system_vold" remote="aospk" />
 
 </manifest>
