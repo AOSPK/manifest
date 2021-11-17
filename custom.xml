@@ -21,6 +21,9 @@
   <project path="external/tinyxml" name="external_tinyxml" remote="aospk" />
   <project path="external/colorkt" name="external_colorkt" remote="aospk" />
 
+  <!-- hardware repos -->
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="aospk" />
+
   <!-- hardware qcom repos -->
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="aospk" revision="twelve-caf" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="aospk" />
