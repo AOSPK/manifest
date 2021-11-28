@@ -48,6 +48,7 @@
 
   <!-- external repos -->
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aospk" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="aospk" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aospk" />
   <project path="external/mksh" name="external_mksh" remote="aospk" />
   <project path="external/selinux" name="external_selinux" remote="aospk" />
