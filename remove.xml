@@ -91,8 +91,11 @@
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/ril" />
+
+  <!-- hardware qcom repos -->
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
 
   <!-- packages repos -->
   <remove-project name="platform/packages/apps/Bluetooth" />
