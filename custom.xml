@@ -20,6 +20,7 @@
   <!-- packages repos -->
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
+  <project path="packages/overlay/ThemeIcons" name="packages_overlay_ThemeIcons" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
   <!-- prebuilt repos -->
