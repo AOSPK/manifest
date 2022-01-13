@@ -2,8 +2,6 @@
 <manifest>
 
   <!-- device repos -->
-  <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy" name="PixelExperience/device_qcom_sepolicy" remote="github" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />
-  <project path="device/qcom-LA.UM.10.3.r1-xxxxx-sdm845.0/sepolicy_vndr" name="PixelExperience/device_qcom_sepolicy_vndr" remote="github" revision="twelve-LA.UM.10.3.r1-xxxxx-sdm845.0" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospk" />
@@ -39,8 +37,6 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8994/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
-    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/Android.bp" />
-    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
@@ -59,10 +55,6 @@
   </project>
 
   <!-- hardware qcom audio/display/media repos -->
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display" name="PixelExperience/hardware_qcom-caf_msm8996_display" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-  <project path="hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" remote="github" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" />
-
   <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" remote="aospk" />
   <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" remote="aospk" />
   <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" remote="aospk" />
