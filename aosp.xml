@@ -24,13 +24,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
-  <!-- manifest -->
-  <project path="manifest" name="manifest" groups="pdk" remote="aospk" />
-
   <!-- general repos -->
-  <project path="art" name="art" remote="aospk" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="aospk" />
-  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="aospk" />
   <project path="build/make" name="build" remote="aospk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -40,110 +34,79 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="build/blueprint" name="build_blueprint" groups="pdk,tradefed" remote="aospk" />
   <project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="aospk" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+
+  <project path="art" name="art" remote="aospk" />
   <project path="bionic" name="bionic" groups="pdk" remote="aospk" />
-  <project path="development" name="development" remote="aospk" />
-  <project path="platform_testing" name="platform_testing" remote="aospk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="aospk" />
 
   <!-- external repos -->
-  <project path="external/boringssl" name="external_boringssl" remote="aospk" />
-  <project path="external/cldr" name="external_cldr" remote="aospk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="aospk" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="aospk" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="aospk" />
-  <project path="external/guice" name="external_guice" remote="aospk" />
-  <project path="external/icu" name="external_icu" remote="aospk" />
-  <project path="external/libcxx" name="external_libcxx" remote="aospk" />
   <project path="external/mksh" name="external_mksh" remote="aospk" />
-  <project path="external/perfetto" name="external_perfetto" remote="aospk" />
   <project path="external/selinux" name="external_selinux" remote="aospk" />
-  <project path="external/tinyalsa" name="external_tinyalsa" remote="aospk" />
   <project path="external/tinycompress" name="external_tinycompress" remote="aospk" />
-  <project path="external/toybox" name="external_toybox" remote="aospk" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="aospk" />
+  <project path="external/tinyxml" name="external_tinyxml" remote="aospk" />
 
   <!-- framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="aospk" />
   <project path="frameworks/base" name="frameworks_base" remote="aospk" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="aospk" />
   <project path="frameworks/native" name="frameworks_native" remote="aospk" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="aospk" />
-  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="aospk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="aospk" />
-  <project path="frameworks/opt/timezonepicker" name="frameworks_opt_timezonepicker" remote="aospk" />
 
   <!-- hardware repos -->
-  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="aospk" />
-  <project path="hardware/google/pixel" name="hardware_google_pixel" remote="aospk" />
   <project path="hardware/interfaces" name="hardware_interfaces" remote="aospk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospk" />
-  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="aospk" />
-  <project path="hardware/ril" name="hardware_ril" remote="aospk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospk" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aospk" />
 
   <!-- hardware qcom repos -->
-  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="aospk" />
-  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="aospk" />
-  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" remote="aospk" />
-  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="aospk" />
-  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="aospk" />
-  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="aospk" />
-  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="aospk" />
-  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="aospk" />
-  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="aospk" >
-    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
-  </project>
-  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="aospk" />
-  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="aospk" />
-  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="aospk" />
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="aospk" />
 
   <!-- packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="aospk" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="aospk" />
-  <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="aospk" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="aospk" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="aospk" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aospk" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="aospk" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="aospk" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="aospk" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="aospk" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aospk" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="aospk" />
-  <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="aospk" />
-  <project path="packages/modules/DnsResolver" name="packages_modules_DnsResolver" remote="aospk" />
-  <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="aospk" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="aospk" />
+  <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="aospk" />
+  <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="aospk" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="aospk" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="aospk" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="aospk" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="aospk" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="aospk" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="aospk" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="aospk" />
-  <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="aospk" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" remote="aospk" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aospk" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aospk" />
 
   <!-- prebuilt repos -->
-  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="aospk" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" name="prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" remote="aospk" clone-depth="1" />
+  <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="aospk" />
 
   <!-- system repos -->
-  <project path="system/bpf" name="system_bpf" remote="aospk" />
   <project path="system/bt" name="system_bt" remote="aospk" />
   <project path="system/core" name="system_core" remote="aospk" />
-  <project path="system/incremental_delivery" name="system_incremental_delivery" remote="aospk" />
   <project path="system/libhwbinder" name="system_libhwbinder" remote="aospk" />
-  <project path="system/libufdt" name="system_libufdt" remote="aospk" />
   <project path="system/libziparchive" name="system_libziparchive" remote="aospk" />
   <project path="system/media" name="system_media" remote="aospk" />
-  <project path="system/netd" name="system_netd" remote="aospk" />
-  <project path="system/nfc" name="system_nfc" remote="aospk" />
   <project path="system/security" name="system_security" remote="aospk" />
   <project path="system/sepolicy" name="system_sepolicy" remote="aospk" />
-  <project path="system/timezone" name="system_timezone" remote="aospk" />
-  <project path="system/tools/hidl" name="system_tools_hidl" remote="aospk" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="aospk" />
   <project path="system/update_engine" name="system_update_engine" remote="aospk" />
   <project path="system/vold" name="system_vold" remote="aospk" />
-
-  <!-- tools repos -->
-  <project path="tools/metalava" name="tools_metalava" remote="aospk" />
 
 </manifest>

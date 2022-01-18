@@ -4,12 +4,12 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-12.0.0_r18"
+  <default revision="refs/tags/android-12.0.0_r27"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r18" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.0.0_r27" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -1106,7 +1106,6 @@
 
   <include name="remove.xml" />
   <include name="aosp.xml" />
-  <include name="caf.xml" />
-  <include name="custom.xml" />
+  <include name="extras.xml" />
 
 </manifest>
