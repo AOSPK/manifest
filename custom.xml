@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
-  <project path="device/custom/atv" name="device_custom_atv" remote="aospk" />
-  <project path="device/custom/car" name="device_custom_car" remote="aospk" />
+  <project path="device/kraken/sepolicy" name="device_kraken_sepolicy" remote="aospk" />
+  <project path="device/kraken/atv" name="device_kraken_atv" remote="aospk" />
+  <project path="device/kraken/car" name="device_kraken_car" remote="aospk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="eleven-legacy-um" />
@@ -33,8 +33,8 @@
   <project path="external/zip" name="external_zip" remote="aospk" />
 
   <project path="hardware/broadcom/nfc" name="hardware_broadcom_nfc" remote="aospk" />
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="aospk" />
-  <project path="hardware/custom/livedisplay" name="hardware_custom_livedisplay" remote="aospk" />
+  <project path="hardware/kraken/interfaces" name="hardware_kraken_interfaces" remote="aospk" />
+  <project path="hardware/kraken/livedisplay" name="hardware_kraken_livedisplay" remote="aospk" />
 
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="aospk" >
     <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
@@ -116,9 +116,9 @@
   <project path="hardware/qcom-caf/vr" name="hardware_qcom_vr" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aospk" revision="eleven-caf" />
 
-  <project path="custom-sdk" name="custom-sdk" remote="aospk" />
+  <project path="kraken-sdk" name="kraken-sdk" remote="aospk" />
 
-  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
+  <project path="packages/apps/KrakenParts" name="packages_apps_KrakenParts" remote="aospk" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="aospk" />
@@ -127,11 +127,10 @@
   <project path="packages/apps/TvCustomizer" name="packages_apps_TvCustomizer" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
-  <project path="packages/resources/devicesettings-custom" name="packages_resources_devicesettings-custom" remote="aospk" />
 
   <project path="prebuilts/clang/host/linux-x86/clang-proton" name="kdrag0n/proton-clang" groups="pdk" clone-depth="1" remote="github" revision="master" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" clone-depth="1" remote="aospk" />
-  <project path="prebuilts/tools-custom" name="prebuilts_tools-custom" clone-depth="1" remote="aospk" />
+  <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" clone-depth="1" remote="aospk" />
 
   <project path="system/qcom" name="system_qcom" remote="aospk" />
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="aospk" />
