@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- device qcom repos -->
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aospk" />
+  <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aospk" />
+  <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="aospk" />
+
+  <!-- hardware qcom repos -->
+  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom_bootctrl" groups="qcom,pdk-qcom" remote="aospk" revision="twelve-caf" />
+  <project path="hardware/qcom-caf/thermal" name="hardware_qcom_thermal" remote="aospk" />
+  <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" remote="aospk" revision="twelve-caf"/>
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom_camera" remote="aospk" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="aospk" />
+
+  <!-- hardware qcom symlink repos -->
+  <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="aospk" >
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8250/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8250/Android.mk" />
+    <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8350/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8350/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+
+  <!-- hardware qcom audio/display/media repos -->
+  <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-msm8998" />
+  <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-msm8998" />
+
+  <project path="hardware/qcom-caf/sdm660/media" name="hardware_qcom_media" groups="qcom,qcom_media" remote="aospk" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sdm660" />
+  <project path="hardware/qcom-caf/sdm660/display" name="hardware_qcom_display" groups="qcom,qcom_display" remote="aospk" revision="twelve-caf-sdm660" />
+
+  <project path="hardware/qcom-caf/sdm845/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sdm845" />
+  <project path="hardware/qcom-caf/sdm845/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sdm845" />
+
+  <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8150" />
+  <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8150" />
+
+  <project path="hardware/qcom-caf/sm8250/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8250" />
+
+  <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom_audio" groups="qcom,qcom_audio" remote="aospk" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="aospk" revision="twelve-caf-sm8350" />
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom_media" groups="qcom" remote="aospk" revision="twelve-caf-sm8350" />
+
+  <!-- vendor nxp repos -->
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_external_libnfc-nci" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="vendor_nxp_opensource_frameworks" remote="aospk" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="vendor_nxp_opensource_packages_apps_Nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_interfaces_opensource_nfc" remote="aospk" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="twelve-pn5xx" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="vendor_nxp_opensource_halimpl" remote="aospk" revision="twelve-sn100x" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="vendor_nxp_opensource_hidlimpl" remote="aospk" revision="twelve-sn100x" />
+
+  <!-- vendor qcom repos -->
+  <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="aospk" />
+  <project path="vendor/qcom/opensource/audio" name="vendor_qcom_opensource_audio" remote="aospk" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="vendor_qcom_opensource_audio-hal_st-hal" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_bluetooth-commonsys-intf" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_display-commonsys-intf" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_bluetooth_ext" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="vendor_qcom_opensource_display-commonsys" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="aospk" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_system_bt" remote="aospk" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="aospk" />
+  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="aospk" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="aospk" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="aospk"/>
+  <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="aospk" />
+  <project path="vendor/qcom/opensource/libfmjni" name="vendor_qcom_opensource_libfmjni" remote="aospk" />
+  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="aospk" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="vendor_qcom_opensource_thermal-engine" remote="aospk" />
+  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="aospk" />
+  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="aospk" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="aospk" />
+
+</manifest>

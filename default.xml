@@ -1106,6 +1106,7 @@
 
   <include name="remove.xml" />
   <include name="aosp.xml" />
+  <include name="caf.xml" />
   <include name="extras.xml" />
 
 </manifest>
