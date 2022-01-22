@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
+  <project path="device/kraken/sepolicy" name="device_kraken_sepolicy" remote="aospk" />
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
   <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="ten-legacy-um" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" revision="ten-legacy" />
@@ -107,13 +107,13 @@
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="los" revision="lineage-17.1-caf-sm8250" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="los" revision="lineage-17.1-caf-sm8250" />
 
-  <project path="lineage-sdk" name="custom-sdk" remote="aospk" />
+  <project path="kraken-sdk" name="kraken-sdk" remote="aospk" />
 
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
-  <project path="packages/apps/CustomParts" name="packages_apps_CustomParts" remote="aospk" />
+  <project path="packages/apps/KrakenParts" name="packages_apps_KrakenParts" remote="aospk" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
-  <project path="packages/overlays/Custom" name="packages_overlays_Custom" remote="aospk" />
+  <project path="packages/overlays/Kraken" name="packages_overlays_Kraken" remote="aospk" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
   <project path="prebuilts/tools-lineage" name="android_prebuilts_tools-lineage" clone-depth="1" remote="los" />
