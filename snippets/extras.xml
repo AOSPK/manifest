@@ -2,7 +2,7 @@
 <manifest>
 
   <project path="device/lineage/atv" name="android_device_lineage_atv" remote="los" />
-  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="aospk" />
+  <project path="device/kraken/sepolicy" name="device_kraken_sepolicy" remote="aospk" />
   <project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="aospk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" groups="qcom,pdk-qcom" remote="aospk" />
 
@@ -73,14 +73,14 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="los" revision="lineage-16.0-caf" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="qcom,pdk-qcom" remote="los" revision="lineage-16.0-caf" />
 
-  <project path="lineage-sdk" name="custom-sdk" remote="aospk" />
-  <project path="lineage-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" remote="los" />
+  <project path="kraken-sdk" name="kraken-sdk" remote="aospk" />
+  <project path="kraken-sdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="android_packages_apps_OpenWeatherMapProvider" remote="los" />
 
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="los" />
-  <project path="packages/apps/LineageParts" name="packages_apps_CustomParts" remote="aospk" />
+  <project path="packages/apps/KrakenParts" name="packages_apps_KrakenParts" remote="aospk" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
   <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="los" />
-  <project path="packages/overlays/Lineage" name="packages_overlays_Custom" remote="aospk" />
+  <project path="packages/overlays/Kraken" name="packages_overlays_Kraken" remote="aospk" />
   <project path="packages/providers/WeatherProvider" name="android_packages_providers_WeatherProvider" remote="los" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
 
