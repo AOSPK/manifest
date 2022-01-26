@@ -66,6 +66,7 @@
   <project path="hardware/interfaces" name="hardware_interfaces" remote="aospk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="aospk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="aospk" />
+  <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" groups="pdk" remote="aospk" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="aospk" />
 
   <!-- hardware qcom repos -->
