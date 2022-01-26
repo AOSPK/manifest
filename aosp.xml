@@ -25,6 +25,7 @@
            fetch="https://gitlab.com" />
 
   <!-- general repos -->
+  <project path="manifest" name="manifest" remote="aospk" />
   <project path="build/make" name="build" remote="aospk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
