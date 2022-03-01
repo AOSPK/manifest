@@ -33,23 +33,23 @@
   <remove-project name="device/google/coral" />
   <remove-project name="device/google/coral-kernel" />
   <remove-project name="device/google/coral-sepolicy" />
-  <remove-project name="device/google/crosshatch" />
-  <remove-project name="device/google/crosshatch-kernel" />
-  <remove-project name="device/google/crosshatch-sepolicy" />
-  <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/gs101" />
   <remove-project name="device/google/gs101-sepolicy" />
   <remove-project name="device/google/gs-common" />
   <remove-project name="device/google/raviole" />
   <remove-project name="device/google/raviole-kernel" />
   <remove-project name="device/google/redbull" />
-  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redbull-sepolicy" />
+  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
   <remove-project name="device/google/sunfish" />
   <remove-project name="device/google/sunfish-kernel" />
   <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/fuchsia" />
   <remove-project name="device/google/trout" />
   <remove-project name="device/google/vrservices" />
   <remove-project name="device/google_car" />
@@ -80,19 +80,17 @@
   <remove-project name="platform/external/selinux" />
   <remove-project name="platform/external/tinycompress" />
 
-  <!-- framework repos -->
+  <!-- frameworks repos -->
   <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/net/ims" />
   <remove-project name="platform/frameworks/opt/telephony" />
+  <remove-project name="platform/frameworks/opt/net/ims" />
 
   <!-- hardware repos -->
-  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/ril" />
 
   <!-- hardware qcom repos -->
@@ -125,15 +123,10 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
-  <!-- prebuilt repos -->
+  <!-- prebuilts repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
-  <remove-project name="platform/prebuilts/build-tools" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
-  <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
   <!-- system repos -->
   <remove-project name="platform/system/bt" />
@@ -141,9 +134,9 @@
   <remove-project name="platform/system/libhwbinder" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/media" />
+  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/tools/mkbootimg" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
 

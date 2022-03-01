@@ -9,13 +9,10 @@
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="aospk" />
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="aospk" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="aospk" />
-  <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="aospk" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="aospk" />
-  <project path="external/colorkt" name="external_colorkt" remote="aospk" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="aospk" />
   <project path="external/json-c" name="external_json-c" remote="aospk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="aospk" />
-  <project path="external/themelib" name="external_themelib" remote="aospk" />
 
   <!-- hardware repos -->
   <project path="hardware/kraken/interfaces" name="hardware_kraken_interfaces" remote="aospk" />
@@ -23,26 +20,19 @@
   <!-- packages repos -->
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" remote="aospk" />
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
-  <project path="packages/apps/KrakenDoze" name="packages_apps_KrakenDoze" remote="aospk" />
   <project path="packages/apps/KrakenPrebuilts" name="packages_apps_KrakenPrebuilts" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
-  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="aospk" />
-  <project path="packages/overlay/ThemeIcons" name="packages_overlay_ThemeIcons" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
-  <!-- prebuilt repos -->
+  <!-- prebuilts repos -->
   <project path="prebuilts/tools-extras" name="prebuilts_tools-extras" remote="aospk" />
 
   <!-- system repos -->
   <project path="system/qcom" name="system_qcom" remote="aospk" />
 
-  <!-- tools repos -->
-  <project path="tools/extract-utils" name="tools_extract-utils" remote="aospk" />
-
   <!-- vendor repos -->
   <project path="vendor/aosp" name="vendor_aosp" remote="aospk" />
   <project path="vendor/gapps" name="vendor_gapps" remote="aospk-gitlab" />
-  <project path="vendor/lawnchair" name="vendor_lawnchair" remote="aospk" />
   <project path="vendor/support" name="vendor_support" remote="aospk" />
 
 </manifest>
