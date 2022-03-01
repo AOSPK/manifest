@@ -7,7 +7,7 @@
            revision="refs/heads/twelve" />
 
   <remote  name="aospk-gitlab"
-           fetch="https://gitlab.com/AOSPK"
+           fetch="ssh://git@gitlab.com/AOSPK-Next"
            revision="refs/heads/twelve" />
 
   <remote  name="hub-devices"
