@@ -22,6 +22,7 @@
   <project path="packages/apps/FMRadio" name="packages_apps_FMRadio" remote="aospk" />
   <project path="packages/apps/KrakenPrebuilts" name="packages_apps_KrakenPrebuilts" remote="aospk" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="aospk" />
+  <project path="packages/overlays/kraken" name="packages_overlays_kraken" remote="aospk" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="aospk" />
 
   <!-- prebuilts repos -->
